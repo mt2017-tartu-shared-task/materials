@@ -138,3 +138,6 @@ The results might look like
     BEAM=10: BLEU = 9.73, 51.7/19.2/8.5/3.8 (BP=0.726, ratio=0.758, hyp_len=3553, ref_len=4690)
 
 we can see that by increasing the beam size, we can get a decent improvement in BLEU.
+
+
+Lets now open OpenNMT-py soruces and see what exact model have we actualy train (by looking in default parameters).
