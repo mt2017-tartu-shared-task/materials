@@ -140,4 +140,4 @@ The results might look like
 we can see that by increasing the beam size, we can get a decent improvement in BLEU.
 
 
-Lets now open OpenNMT-py soruces and see what exact model have we actualy train (by looking in default parameters).
+Lets now open OpenNMT-py soruces and see what exact model have we actualy train (by looking at default parameters).
