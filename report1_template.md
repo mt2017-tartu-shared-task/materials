@@ -7,7 +7,7 @@ TEAMNAME team:
 (provide links to your github profiles only)
 
 ## Our project board:
-(Screenshot of your project board with tasks is here)
+(Screenshot of your project board with tasks is here; keep it compact please)
 
 ## This milestone tasks description:
 ### Corpus Preparation
