@@ -12,15 +12,15 @@ TEAMNAME team:
 ## This milestone tasks description:
 ### Corpus Preparation
 Starting from raw data, we applied following preprocessing steps:
-* corpora concatenating (link to github SLURM script/s): as a result we got one big parallel text corpus of size N
+* corpora concatenating (link to github SLURM script/s): we got one big parallel text corpus of size N
 * data shuffling (link to github SLURM script/s): to feed sentences to NMT system later in the random order  
-* data splitting (link to github SLURM script/s): as a result we got X training examples, Y test examples, and Z development examples
+* data splitting (link to github SLURM script/s): X training examples, Y test examples, and Z development examples
 
-...
+... 
 
-...
+... (fill in here)
 
-...
+* BPE: we used joint vocabulary of size N
 
 We used [Moses](http://www.statmt.org/moses/) scripts to do basic preprocessing, and [BPE](https://github.com/rsennrich/subword-nmt) for the subword segmentation. 
 
