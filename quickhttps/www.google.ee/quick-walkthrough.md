@@ -15,7 +15,7 @@ It is also common to generate *hidden states* using bidirectional neural network
 <p align="center">
 <img width="80%" height="10%" src="http://d3kbpzbmcynnmx.cloudfront.net/wp-content/uploads/2015/12/Screen-Shot-2015-12-30-at-1.16.08-PM.png" />
 <br>
- <b>Bidirectional encoder as a part of  encoder-decoder architecture</b>
+ <b>Bidirectional encoder as a part of  encoder-decoder architecture. Picture is from [Bahdanau et al.](https://arxiv.org/abs/1409.0473).</b>
 </p>
 
 You can also use other encoder architecture using `-encoder_type` parameter. Choices are `['rnn', 'brnn', 'mean', 'transformer', 'cnn']`.
@@ -142,4 +142,4 @@ we can see that by increasing the beam size, we can get a decent improvement in 
 
 Lets now open OpenNMT-py soruces and see what exact model have we actualy train (by looking at default parameters).
 
-Based on [nmt-typs](https://github.com/neubig/nmt-tips) tutorial (for dynet lamtram toolkit) by [Graham Neubig](http://phontron.com/)
+Based on [nmt-typs](https://github.com/neubig/nmt-tips) tutorial (for dynet lamtram toolkit) by [Graham Neubig](http://phontron.com/).
