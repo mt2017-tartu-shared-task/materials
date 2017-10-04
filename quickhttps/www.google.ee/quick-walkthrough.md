@@ -11,11 +11,12 @@ First, we *encode* the source sentence. To do so, we convert the source word int
 Then,  we map this into a hidden state using a recurrent neural network.
 
 It is also common to generate *hidden states* using bidirectional neural networks, where we run one forward RNN that reads from left-to-right, and another backward RNN that reads from right to left, then concatenate the representations for each word. This is the default setting in OpenNMT-py (specified by `-brnn` option at train.y script). You can also choose a merge action for for the bidirectional hidden states (specified by `-brnn_merge [concat|sum]`). 
+The picture below (from [Bahdanau et al.](https://arxiv.org/abs/1409.0473)) shows how does bidirectional encoder looks like.
 
 <p align="center">
 <img width="80%" height="10%" src="http://d3kbpzbmcynnmx.cloudfront.net/wp-content/uploads/2015/12/Screen-Shot-2015-12-30-at-1.16.08-PM.png" />
 <br>
- <b>Bidirectional encoder as a part of  encoder-decoder architecture. Picture is from [Bahdanau et al.](https://arxiv.org/abs/1409.0473).</b>
+ <b>Bidirectional encoder as a part of  encoder-decoder architecture</b>
 </p>
 
 You can also use other encoder architecture using `-encoder_type` parameter. Choices are `['rnn', 'brnn', 'mean', 'transformer', 'cnn']`.
