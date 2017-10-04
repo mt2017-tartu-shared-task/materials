@@ -4,7 +4,7 @@ This tutorial will explain some practical tips about how to train a neural machi
 
 ## Neural Machine Translation (NMT) and Encoder-decoder Models
 
-Encoder-decoder models (Kalchbrenner & Blunsom 2013, Sutskever et al. 2014) are the simplest version of NMT. The idea is relatively simple: we read in the words of a target sentence one-by-one using a recurrent neural network, then predict the words in the target sentence. 
+Encoder-decoder models are the simplest version of NMT. The idea is relatively simple: we read in the words of a target sentence one-by-one using a recurrent neural network, then predict the words in the target sentence. 
 
 First, we *encode* the source sentence. To do so, we convert the source word into a fixed-length word representation.
 
@@ -77,7 +77,7 @@ Looking at the `w/s` (words per second) on the right side of the log, we can see
 
 ### Other Update Rules
 
-In addition to the standard `SGD_UPDATE` rule listed above, there are a myriad of additional ways to update the parameters, including "SGD With Momentum", "Adagrad", "Adadelta", "Adam", and many others. Explaining these in detail is beyond the scope of this tutorial, but it suffices to say that these will more quickly find a good place in parameter space than the standard method above. Most common optimization method nowadays is "Adam" (Kingma et al. 2014). Use `-optim` parameter to choose optimazer, and `-learning_rate` to set up the learning rate. Note, that for different optimizers differnet learning rates are better on practice.
+In addition to the standard `SGD_UPDATE` rule listed above, there are a myriad of additional ways to update the parameters, including "SGD With Momentum", "Adagrad", "Adadelta", "Adam", and many others. Explaining these in detail is beyond the scope of this tutorial, but it suffices to say that these will more quickly find a good place in parameter space than the standard method above. Most common optimization method nowadays is "Adam". Use `-optim` parameter to choose optimazer, and `-learning_rate` to set up the learning rate. Note, that for different optimizers differnet learning rates are better on practice.
 
 You can also use `-learning_rate_decay` stategy
 
@@ -85,7 +85,7 @@ If you rerun train.py with SGD, you'll probably find that the perplexity drops s
 
 ## Attention
 
-One of the major advances in NMT has been the introduction of attention (Bahdanau et al. 2015). The basic idea behind attention is that when we want to generate a particular target word, that we will want to focus on a particular source word, or a couple words. In order to express this, attention calculates a "context vector" that is used as input to the softmax in addition to the decoder state.
+One of the major advances in NMT has been the introduction of attention. The basic idea behind attention is that when we want to generate a particular target word, that we will want to focus on a particular source word, or a couple words. In order to express this, attention calculates a "context vector" that is used as input to the softmax in addition to the decoder state.
  
 This context vector is defined as the sum of the input sequence vectors, weighted by an attention vector.
 
@@ -94,7 +94,7 @@ OpenNMT-py uses attention by default.
 
 ### Types of Attention
 
-There are several ways to calculate the attention scores `α_{i,j}`, such as those investigated by Luong et al. (2015). The following ones are implemented in OpenNMT-py, and can be changed using the `-global_attention TYPE` option. Choices are `['dot', 'general', 'mlp']`.
+There are several ways to calculate the attention scores. The following ones are implemented in OpenNMT-py, and can be changed using the `-global_attention TYPE` option. Choices are `['dot', 'general', 'mlp']`.
 
 ## Testing NMT Systems
 We use test set to see how well our model is able to generalize to new examples. We employ BLEU metric to get some score.
@@ -141,3 +141,5 @@ we can see that by increasing the beam size, we can get a decent improvement in 
 
 
 Lets now open OpenNMT-py soruces and see what exact model have we actualy train (by looking at default parameters).
+
+Based on [nmt-typs](https://github.com/neubig/nmt-tips) tutorial (for dynet lamtram toolkit) by [Graham Neubig](http://phontron.com/)
