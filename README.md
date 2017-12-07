@@ -1,11 +1,11 @@
 # Shared Task materials
 
-This repo contains course materials for the Machine Translation (MTAT.06.055) course. 
-Course page: https://courses.cs.ut.ee/2017/MT/fall
-Shared task page: https://github.com/mt2017-tartu-shared-task
-Contact: @maxdel @fishel 
+This repo contains course materials for the Machine Translation (MTAT.06.055) course. <br>
+Course page: https://courses.cs.ut.ee/2017/MT/fall <br>
+Shared task page: https://github.com/mt2017-tartu-shared-task <br>
+Contact: maksym.del@gmail.com | fishel@ut.ee
 
-# 3 final steps before we finish
+## 3 final steps before we finish
 The course is approaching its finish. 
 This document describes 3 main steps you should make to complete the shared task, and deadlines for the steps.
 Please, pay attention to these since they will heavily influence your grade:
