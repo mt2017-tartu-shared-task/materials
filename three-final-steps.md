@@ -3,7 +3,7 @@ The course is approaching its finish.
 This document describes 3 main steps you should make to complete the shared task, and deadlines for the steps.
 Please, pay attention to these since they will heavily influence your grade:
 
-### Step 1. Create README.md for your project
+## Step 1. Create README.md for your project
 You need to fill in the gaps in the README-EXAMPLE.md template from the materials repo
 and publish result README.md file under the GitHub project root.
 
