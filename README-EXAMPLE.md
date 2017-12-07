@@ -1,5 +1,5 @@
 # __TEAMNAME__ In-class Machine Translation Shared Task 2017 Submission
-This repository is a result of our participation in the shared task. 
+This repository is a result of our participation in the shared task.<br>
 We went through the process of building, analyzing, and improving the neural machine translation system.
 
 Poster: [link]() // feel later, no need to feel now
@@ -7,8 +7,8 @@ Poster: [link]() // feel later, no need to feel now
 The shared task was for Estonian-English language pair. 
 It included working with ~19.000.000 sentence pairs.
 
-More about shared task: [link](https://courses.cs.ut.ee/2017/MT/fall/Main/SharedTask)
-Shared task main repo: [link](https://github.com/mt2017-tartu-shared-task)
+Shared task main page: [link](https://github.com/mt2017-tartu-shared-task) <br>
+Shared task on course page: [link](https://courses.cs.ut.ee/2017/MT/fall/Main/SharedTask)
 
 Sections below summarize key milestones we went through.  
 
@@ -41,14 +41,15 @@ More details: [__REPORT_4,_3_LINKS__]. // use format [link](url)
 Do not forget to check our poster: [__POSTER_LINK__]
 
 ## What we also tried or wanted to try
-__describe_what_you_succesfully_tried_but_did_not_include_in_the_final_system_for_any_(technical_/_other_reason)__, __include_concrete_bleu_results/manual_evaluation_results_if_you_have_any_them_(one_sentece_here_or_leave_it_empty)__
-__lastly,_describe_what_you_wnated_to_try_but_did_not_try_for_any_(technical_/_other_reason)__
+Describe_what_you successfully tried but did not include in the final system for any (technical/other reason)<br>
+Include concrete bleu results/manual evaluation results if you have them (use one sentence here or leave it empty)<br>
+Lastly, describe what you wanted to try but did not try for any (technical/other) reason<br>
 
 
 ## Final words
-- __1st_sentence:your_results_on_the_test_set_and_interpretation_(feel_later)__
-- __2nd_sentence:what_were_the_general_difficulties__
-- __3rd_sentence:what_you_have_learnt__
+- __1st_sentence: your_results_on_the_test_set_and_interpretation_(feel_later)__
+- __2nd_sentence: what_were_the_general_difficulties__
+- __3rd_sentence: what_you_have_learnt__
 
 
 ## Team members:
