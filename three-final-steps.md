@@ -13,9 +13,9 @@ that you can ~~delete~~ attach to your CV later.
 Some notes about README-EXAMPLE.md:
 * leave test set scores and poster link empty for now 
 * by "final system" I mean the one you obtained test set translation with 
-* there is a section "What we also tried or wanted to try": if you failed to do something due to any
-    some reasons, describe your attempts and intuitions here
-     
+* there is a section "What we also tried or wanted to try": if you failed to do something due to reasons, 
+describe your attempts and intuitions here
+
 ## Step 2. Translate source side of the test set and publish results  
 1. Create a new folder on your team's GitHub repo. The directory should be named "test-final".
 2. Translate source side of the test set with your final system, and publish results file under "test_final" folder. 
