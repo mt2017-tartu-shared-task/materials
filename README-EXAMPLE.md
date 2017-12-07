@@ -18,7 +18,7 @@ Sections below summarize key milestones we went through.
 
 More details: [__REPORT_1_LINK__]. // use format [link](url)
 
-## Baseline manual evaluation
+## Baseline system manual evaluation
 - We manually analyzed __40_OR_60__ baseline translations. 
 - Or main observation was that __Concrete one-sentence description of the problem you found and tried to fix later.__ // _put here only the problem(s) you actually put the most effort to_
 - Take a look at our the motivating example produced by baseline system:

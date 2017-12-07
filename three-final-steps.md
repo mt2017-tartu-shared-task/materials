@@ -25,9 +25,10 @@ Some notes about README-EXAMPLE.md:
 The plan is to have a poster session for presenting projects. 
 Some of you are also enrolled at NLP course this semester, so to be systematic we follow the same guidelines:
 https://docs.google.com/document/d/1a8b3Db85ns1hUgosBH5la0ZLDUcP32FaSiUE_Zhihf4. 
+
 Generally speaking, it is up to you what to put on the poster. Feel free to reuse your reports and final README.md
 
-NB0! Forget about deadline tomorrow (see NB1)
-NB1! The deadline for Step 1 and Step 2 is December 16, 06:00 AM. 
+NB0! Forget about deadline tomorrow (see NB1) <br>
+NB1! The deadline for Step 1 and Step 2 is December 16, 06:00 AM. <br>
 NB2! The poster session will be held on Wednesday, December 20 instead of lecture. Room number TBA.
   
