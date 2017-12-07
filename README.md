@@ -1,6 +1,7 @@
 # Shared Task materials
 
-This repo contains course materials for the Machine Translation (MTAT.06.055) course. <br>
+This repo contains course materials for the Machine Translation (MTAT.06.055) course.
+
 Course page: https://courses.cs.ut.ee/2017/MT/fall <br>
 Shared task page: https://github.com/mt2017-tartu-shared-task <br>
 Contact: maksym.del@gmail.com | fishel@ut.ee
