@@ -6,6 +6,8 @@ Course page: https://courses.cs.ut.ee/2017/MT/fall <br>
 Shared task page: https://github.com/mt2017-tartu-shared-task <br>
 Contact: maksym.del@gmail.com | fishel@ut.ee
 
+![](https://github.com/mt2017-tartu-shared-task/materials/blob/master/MT-POSTER.png)
+
 ## 3 final steps before we finish
 The course is approaching its finish. 
 This document describes 3 main steps you should make to complete the shared task, and deadlines for the steps.
