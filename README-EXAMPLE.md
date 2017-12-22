@@ -13,48 +13,41 @@ Shared task on course page: [link](https://courses.cs.ut.ee/2017/MT/fall/Main/Sh
 Sections below summarize key milestones we went through.  
 
 ##  Baseline system
-- Our baseline system was __Concrete one-sentence summary of the baseline system.__
-- As a result, we got __YOUR_BLEU_ON_ACCURAT(!!!)DEV_SET__ BLEU points on the shared dev set.
+- Our baseline system was pretty decent.
+- As a result, we got 35.97 BLEU points on the shared dev set.
 
-More details: [__REPORT_1_LINK__]. // use format [link](url)
+More details: [link](https://github.com/mt2017-tartu-shared-task/nmt-system-F/blob/master/reports/report1.md).
 
 ## Baseline system manual evaluation
-- We manually analyzed __40_OR_60__ baseline translations. 
-- Or main observation was that __Concrete one-sentence description of the problem you found and tried to fix later.__ // _put here only the problem(s) you actually put the most effort to_
+- We manually analyzed 40 baseline translations. 
+- Or main observation was that the sintactic structure was not fully correct, so we tried to improve on this aspect.
 - Take a look at our the motivating example produced by baseline system:
-"__relevant_sentence_from_report_2__"
+"ORIGINAL: Tests were carried out in Germany , Hungary , the Netherlands , Slovenia and Slovakia on nearly 200 sets of light strings in all price categories.<br>
+TRANSLATED: The tests were carried out in Germany , Hungary , the Netherlands , Slovenia and Slovakia on a set of price categories of almost 200 sheep"
 
-More details: [__REPORT_2_LINK__]. // use format [link](url)
+More details: [link](https://github.com/mt2017-tartu-shared-task/nmt-system-F/blob/master/reports/report2.md).
 
 ## Final system
-- In order to address translation issues found after our manual evaluation we __descrie_the_modification_you_actually_included_in_your_final_system__. 
-- The trained system gave us __YOUR_BLEU_ON_ACCURAT(!!!)DEV_SET__ BLEU points on the shared dev set that means __SMALL/BIG/ZERO INCREASE__ over the baseline. 
+- In order to address translation issues found after our manual evaluation we wanted to insert Standford CoreNLP. 
+- The trained system gave us the same BLEU points as before as we were not able to use CoreNPL.
 
-More details: [__REPORT_4,_3_LINKS__]. // use format [link](url)
-
-## Final system manual evaluation
-- Generally speaking, ____Just_your_general_feeling_about_the_translations_comparing_to_the_baseline (just a few words: got better, worse, same, etc; what about fluency).__
-- Lets now look at how does our Motivating example looks like with our final system:
-""__the_same_sentence_as_before_but_translated_with_your_final_system__", 
-- As a result you can see that __some_words_about_the_sentence_comparing_to_its_baseline_translation__
+More details: [link report 3](https://github.com/mt2017-tartu-shared-task/nmt-system-F/blob/master/reports/report3.md).<br>
+[link report 4](https://github.com/mt2017-tartu-shared-task/nmt-system-F/blob/master/reports/report4.md).
 
 Do not forget to check our poster: [__POSTER_LINK__]
 
 ## What we also tried or wanted to try
-Describe_what_you successfully tried but did not include in the final system for any (technical/other reason)<br>
-Include concrete bleu results/manual evaluation results if you have them (use one sentence here or leave it empty)<br>
-Lastly, describe what you wanted to try but did not try for any (technical/other) reason<br>
-
+We tried to include Standford CoreNPL. Stanford CoreNLP provides a set of human language technology tools. It can give the base forms of words, their parts of speech, whether they are names of companies, people, etc., normalize dates, times, and numeric quantities, mark up the structure of sentences in terms of phrases and syntactic dependencies, indicate which noun phrases refer to the same entities, indicate sentiment, extract particular or open-class relations between entity mentions, get the quotes people said, etc. So, with this, we wanted to fix some sintactical problems of our system. But we could not.
 
 ## Final words
-- __1st_sentence: your_results_on_the_test_set_and_interpretation_(feel_later)__
-- __2nd_sentence: what_were_the_general_difficulties__
-- __3rd_sentence: what_you_have_learnt__
+- __1st_sentence: We can't compare our system before and after because sadly, there is not a before and an after.
+- __2nd_sentence: Our main difficulty was the second iteration of the system as we could not improve it.
+- __3rd_sentence: We have learnt that is not as easy at it looks to train a system for translation. And also that the translation world has to improve a lot yet.
 
 
 ## Team members:
-1. Github profile link
-2. Github profile link
+1. https://github.com/eruizdeloizaga002
+2. https://github.com/vampnik
 
-Project board: [link]()
+Project board: [link](https://github.com/mt2017-tartu-shared-task/nmt-system-F).
 
