@@ -1,4 +1,4 @@
-# Shared task: Lab 2 - more on NMT baselines
+# Shared task: Lab 3 - more on NMT baselines
 by [Maksym Del](https://github.com/maxdel)
 
 This tutorial is based on [nmt-typs](https://github.com/neubig/nmt-tips) tutorial (for dynet lamtram toolkit) by [Graham Neubig](http://phontron.com/) and will explain some practical tips about how to train a neural machine translation system. It is partly based around examples using the [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py) toolkit. Note that this will not cover the theory behind NMT in detail, nor is it a survey meant to cover all the work on neural MT, but it will show you how to use OpenNMT-py in more details, and also demonstrate some things that you have to do in order to make a system that actually works well.
